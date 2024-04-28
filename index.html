@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Planner</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div id="parties_container"></div>
+    <form id="add_new_parties_form">
+        <label>
+            Name
+            <input type="text" id="name"/>
+        </label>
+        <label>
+            Date
+            <input type="date" id="date"/>
+        </label>
+        <label>
+            Location
+            <input type="text" id="location"/>
+        </label>
+        <label>
+            Description
+            <input type="text" id="description"/>
+        </label>
+        <button type="submit" id='submitButton'>Submit</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
